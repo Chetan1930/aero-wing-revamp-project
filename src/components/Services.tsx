@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Plane, Award, Tools, Users, Shield, Calendar } from 'lucide-react';
+import { Plane, Award, Wrench, Users, Shield, Calendar } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const serviceItems = [
@@ -15,7 +15,7 @@ const serviceItems = [
     description: 'Comprehensive pilot training programs from beginner to advanced levels with experienced instructors.'
   },
   {
-    icon: <Tools className="h-10 w-10 text-aero-blue" />,
+    icon: <Wrench className="h-10 w-10 text-aero-blue" />,
     title: 'Aircraft Maintenance',
     description: 'State-of-the-art maintenance services by certified technicians for all types of aircraft.'
   },
