@@ -18,9 +18,6 @@ const Hero = () => {
             <Button className="bg-aero-blue hover:bg-aero-light text-white px-8 py-6 text-lg">
               Explore Our Services
             </Button>
-            <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
-              Book a Flight <ChevronRight className="ml-2 h-5 w-5" />
-            </Button>
           </div>
         </div>
       </div>

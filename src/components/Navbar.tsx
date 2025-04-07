@@ -80,6 +80,8 @@ const Navbar = () => {
                             </Link>
                           </li>
                         </ul>
+
+                        
                       </NavigationMenuContent>
                     </li>
                     <li className="border-t border-blue-100 py-2">
