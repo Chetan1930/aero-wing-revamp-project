@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
@@ -7,7 +6,6 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
@@ -46,15 +44,15 @@ const Navbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <Link to="/" className="px-4 py-2 text-aero-blue hover:text-aero-light font-medium">
+                <Link to="/" className={`px-4 py-2 text-aero-blue hover:text-aero-light font-medium`}>
                   Home
                 </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
+                <Link to="/services/design" className={`px-4 py-2 text-aero-blue hover:text-aero-light font-medium`}>
                   Services
-                </NavigationMenuTrigger>
+                </Link>
                 <NavigationMenuContent>
                   <ul className="w-[250px] p-0">
                     <li className="border-t border-blue-100 first:border-t-0 py-2">
@@ -80,8 +78,6 @@ const Navbar = () => {
                             </Link>
                           </li>
                         </ul>
-
-                        
                       </NavigationMenuContent>
                     </li>
                     <li className="border-t border-blue-100 py-2">
@@ -222,7 +218,7 @@ const Navbar = () => {
           </NavigationMenu>
         </div>
 
-        <Button className="hidden lg:block bg-aero-blue hover:bg-aero-light text-white">Contact Us</Button>
+        <Button className="hidden lg:block bg-aero-blue hover:bg-aero-light text-white">Get in Touch</Button>
 
         {/* Mobile Menu Button */}
         <button 
@@ -304,7 +300,7 @@ const Navbar = () => {
               </div>
             </div>
             
-            <Button className="w-full bg-aero-blue hover:bg-aero-light text-white">Contact Us</Button>
+            <Button className="w-full bg-aero-blue hover:bg-aero-light text-white">Get in Touch</Button>
           </div>
         </div>
       )}

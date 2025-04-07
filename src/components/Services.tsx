@@ -1,37 +1,38 @@
+
 import React from 'react';
-import { Plane, Award, Wrench, Users, Shield, Calendar } from 'lucide-react';
+import { Ruler, Clipboard, Cog, Settings, FlaskConical, ScrollText } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const serviceItems = [
   {
-    icon: <Plane className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Charter Services',
-    description: 'Premium air charter services for business and leisure travelers with customized flight solutions.'
+    icon: <Ruler className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Aerospace Design',
+    description: 'Comprehensive design services for aircraft, rockets, drones, and other aerospace vehicles.'
   },
   {
-    icon: <Award className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Flight Training',
-    description: 'Comprehensive pilot training programs from beginner to advanced levels with experienced instructors.'
+    icon: <Clipboard className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Engineering Analysis',
+    description: 'Advanced computational analysis including CFD, FEA, and aerodynamic performance evaluation.'
   },
   {
-    icon: <Wrench className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Aircraft Maintenance',
-    description: 'State-of-the-art maintenance services by certified technicians for all types of aircraft.'
+    icon: <Cog className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Systems Engineering',
+    description: 'Integration of complex aerospace systems with reliability and performance optimization.'
   },
   {
-    icon: <Users className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Corporate Aviation',
-    description: 'Tailored corporate flight solutions including aircraft management and executive travel.'
+    icon: <Settings className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Prototype Manufacturing',
+    description: 'State-of-the-art manufacturing including composite fabrication and 3D printed prototypes.'
   },
   {
-    icon: <Shield className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Safety Compliance',
-    description: 'Rigorous safety standards and compliance with international aviation regulations.'
+    icon: <FlaskConical className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Testing & Validation',
+    description: 'Comprehensive testing services including wind tunnel testing, flight testing, and certification.'
   },
   {
-    icon: <Calendar className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Aircraft Booking',
-    description: 'Easy-to-use scheduling and booking system for efficient flight planning and management.'
+    icon: <ScrollText className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Educational Outreach',
+    description: 'Programs designed to inspire and educate students about aerospace engineering and innovation.'
   }
 ];
 
@@ -41,10 +42,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-aero-dark mb-4">
-            Our Aviation Services
+            Our Engineering Services
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Comprehensive aviation solutions delivered with expertise and precision to meet your unique requirements.
+            Innovative aerospace solutions from conceptualization to implementation with cutting-edge technology and expertise.
           </p>
         </div>
 
