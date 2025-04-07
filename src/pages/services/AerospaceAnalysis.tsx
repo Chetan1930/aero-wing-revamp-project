@@ -10,7 +10,7 @@ const AerospaceAnalysis = () => {
     >
       <div className="text-center py-12">
         <img 
-          src="/public/lovable-uploads/3c41ff15-62fb-4b86-9f73-d198191b88fe.png" 
+          src="/lovable-uploads/3c41ff15-62fb-4b86-9f73-d198191b88fe.png" 
           alt="Aerospace analysis" 
           className="w-full max-w-4xl mx-auto h-auto rounded-lg shadow-lg mb-8"
         />

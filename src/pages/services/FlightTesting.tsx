@@ -10,7 +10,7 @@ const FlightTesting = () => {
     >
       <div className="mb-16">
         <img 
-          src="/public/lovable-uploads/c7506845-d174-486a-b11f-335af3e9936d.png" 
+          src="/lovable-uploads/c7506845-d174-486a-b11f-335af3e9936d.png" 
           alt="Flight testing" 
           className="w-full h-[500px] object-cover rounded-lg shadow-lg mb-8"
         />
