@@ -52,17 +52,17 @@ const Navbar = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-aero-blue">
+                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
                   Services
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-white">
+                <NavigationMenuContent>
                   <ul className="w-[250px] p-0">
                     <li className="border-t border-blue-100 first:border-t-0 py-2">
                       <NavigationMenuTrigger className="justify-between w-full px-4 py-2 text-left bg-white hover:bg-gray-50 text-aero-dark">
                         <span>Aerospace Vehicle Design</span>
                         <ChevronRight className="h-4 w-4 ml-2" />
                       </NavigationMenuTrigger>
-                      <NavigationMenuContent className="bg-white">
+                      <NavigationMenuContent>
                         <ul className="w-[250px] p-0">
                           <li>
                             <Link to="/services/design/aircraft" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -92,7 +92,7 @@ const Navbar = () => {
                         <span>Aerospace Vehicle Manufacturing</span>
                         <ChevronRight className="h-4 w-4 ml-2" />
                       </NavigationMenuTrigger>
-                      <NavigationMenuContent className="bg-white">
+                      <NavigationMenuContent>
                         <ul className="w-[250px] p-0">
                           <li>
                             <Link to="/services/manufacturing/composite" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -104,7 +104,7 @@ const Navbar = () => {
                               <span>3D Printed Prototypes</span>
                               <ChevronRight className="h-4 w-4 ml-2" />
                             </NavigationMenuTrigger>
-                            <NavigationMenuContent className="bg-white">
+                            <NavigationMenuContent>
                               <ul className="w-[250px] p-0">
                                 <li>
                                   <Link to="/services/manufacturing/3d/rapid" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -137,10 +137,10 @@ const Navbar = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-aero-blue">
+                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
                   Consult an Expert
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-white">
+                <NavigationMenuContent>
                   <ul className="w-[250px] p-0">
                     <li className="border-t border-blue-100 first:border-t-0 py-2">
                       <Link to="/expert/my-account" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -168,10 +168,10 @@ const Navbar = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-aero-blue">
+                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
                   Contact Us
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-white">
+                <NavigationMenuContent>
                   <ul className="w-[250px] p-0">
                     <li className="border-t border-blue-100 first:border-t-0 py-2">
                       <Link to="/contact/privacy-policy" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -183,10 +183,10 @@ const Navbar = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-aero-blue">
+                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
                   Employee Corner
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-white">
+                <NavigationMenuContent>
                   <ul className="w-[320px] p-0">
                     <li className="border-t border-blue-100 first:border-t-0 py-2">
                       <Link to="/employee/mail-login" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
@@ -220,7 +220,7 @@ const Navbar = () => {
           </NavigationMenu>
         </div>
 
-        <Button className="hidden lg:block bg-aero-blue hover:bg-aero-light text-white">Book Now</Button>
+        <Button className="hidden lg:block bg-aero-blue hover:bg-aero-light text-white">Contact Us</Button>
 
         {/* Mobile Menu Button */}
         <button 
@@ -302,7 +302,7 @@ const Navbar = () => {
               </div>
             </div>
             
-            <Button className="w-full bg-aero-blue hover:bg-aero-light text-white">Book Now</Button>
+            <Button className="w-full bg-aero-blue hover:bg-aero-light text-white">Contact Us</Button>
           </div>
         </div>
       )}

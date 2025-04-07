@@ -7,7 +7,6 @@ import About from '@/components/About';
 import Fleet from '@/components/Fleet';
 import Testimonials from '@/components/Testimonials';
 import Stats from '@/components/Stats';
-import BookingForm from '@/components/BookingForm';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
 
@@ -17,7 +16,6 @@ const Index = () => {
       <Navbar />
       <Hero />
       <div className="relative">
-        <BookingForm />
         <Services />
         <About />
         <Fleet />
