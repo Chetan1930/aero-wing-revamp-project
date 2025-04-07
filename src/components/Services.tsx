@@ -1,38 +1,38 @@
 
 import React from 'react';
-import { Ruler, Clipboard, Cog, Settings, FlaskConical, ScrollText } from 'lucide-react';
+import { Ruler, FileAnalytics, Cog, Plane, FlaskConical, GraduationCap } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const serviceItems = [
   {
     icon: <Ruler className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Aerospace Design',
+    title: 'Aerospace Vehicle Design',
     description: 'Comprehensive design services for aircraft, rockets, drones, and other aerospace vehicles.'
   },
   {
-    icon: <Clipboard className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Engineering Analysis',
+    icon: <FileAnalytics className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Aerospace Vehicle Analysis',
     description: 'Advanced computational analysis including CFD, FEA, and aerodynamic performance evaluation.'
   },
   {
     icon: <Cog className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Systems Engineering',
-    description: 'Integration of complex aerospace systems with reliability and performance optimization.'
+    title: 'Aerospace Vehicle Manufacturing',
+    description: 'State-of-the-art manufacturing including composite fabrication and 3D printed components.'
   },
   {
-    icon: <Settings className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Prototype Manufacturing',
-    description: 'State-of-the-art manufacturing including composite fabrication and 3D printed prototypes.'
+    icon: <Plane className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Aerospace Vehicle Flight Testing',
+    description: 'Comprehensive testing services including wind tunnel testing, flight testing, and certification.'
   },
   {
     icon: <FlaskConical className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
     title: 'Testing & Validation',
-    description: 'Comprehensive testing services including wind tunnel testing, flight testing, and certification.'
+    description: 'Rigorous validation protocols to ensure aerospace vehicles meet all performance and safety requirements.'
   },
   {
-    icon: <ScrollText className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
-    title: 'Educational Outreach',
-    description: 'Programs designed to inspire and educate students about aerospace engineering and innovation.'
+    icon: <GraduationCap className="h-10 w-10 text-aero-blue" aria-hidden="true" />,
+    title: 'Outreach Program',
+    description: 'Educational initiatives designed to inspire and educate students about aerospace engineering and innovation.'
   }
 ];
 

@@ -50,83 +50,39 @@ const Navbar = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link to="/services/design" className={`px-4 py-2 text-aero-blue hover:text-aero-light font-medium`}>
+                <NavigationMenuTrigger className="text-aero-blue hover:text-aero-light">
                   Services
-                </Link>
+                </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="w-[250px] p-0">
-                    <li className="border-t border-blue-100 first:border-t-0 py-2">
-                      <NavigationMenuTrigger className="justify-between w-full px-4 py-2 text-left bg-white hover:bg-gray-50 text-aero-dark">
-                        <span>Aerospace Vehicle Design</span>
-                        <ChevronRight className="h-4 w-4 ml-2" />
-                      </NavigationMenuTrigger>
-                      <NavigationMenuContent>
-                        <ul className="w-[250px] p-0">
-                          <li>
-                            <Link to="/services/design/aircraft" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                              Aircrafts
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/services/design/rocket" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                              Rocket Design
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/services/design/drone" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                              Drone Design
-                            </Link>
-                          </li>
-                        </ul>
-                      </NavigationMenuContent>
+                  <ul className="w-[350px] p-0 bg-black/90 text-white">
+                    <li className="border-t border-gray-700 first:border-t-0">
+                      <div className="flex justify-between items-center w-full">
+                        <Link to="/services/design" className="w-full block px-4 py-3 hover:bg-gray-800">
+                          Aerospace Vehicle Design
+                        </Link>
+                        <ChevronRight className="h-4 w-4 mr-2" />
+                      </div>
                     </li>
-                    <li className="border-t border-blue-100 py-2">
-                      <Link to="/services/analysis" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                    <li className="border-t border-gray-700">
+                      <Link to="/services/analysis" className="block px-4 py-3 hover:bg-gray-800">
                         Aerospace Vehicle Analysis
                       </Link>
                     </li>
-                    <li className="border-t border-blue-100 py-2">
-                      <NavigationMenuTrigger className="justify-between w-full px-4 py-2 text-left bg-white hover:bg-gray-50 text-aero-dark">
-                        <span>Aerospace Vehicle Manufacturing</span>
-                        <ChevronRight className="h-4 w-4 ml-2" />
-                      </NavigationMenuTrigger>
-                      <NavigationMenuContent>
-                        <ul className="w-[250px] p-0">
-                          <li>
-                            <Link to="/services/manufacturing/composite" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                              Composite Materials
-                            </Link>
-                          </li>
-                          <li>
-                            <NavigationMenuTrigger className="justify-between w-full px-4 py-2 text-left bg-white hover:bg-gray-50 text-aero-dark">
-                              <span>3D Printed Prototypes</span>
-                              <ChevronRight className="h-4 w-4 ml-2" />
-                            </NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                              <ul className="w-[250px] p-0">
-                                <li>
-                                  <Link to="/services/manufacturing/3d/rapid" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                                    Rapid Prototyping
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link to="/services/manufacturing/3d/metal" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
-                                    Metal Printing
-                                  </Link>
-                                </li>
-                              </ul>
-                            </NavigationMenuContent>
-                          </li>
-                        </ul>
-                      </NavigationMenuContent>
+                    <li className="border-t border-gray-700">
+                      <div className="flex justify-between items-center w-full">
+                        <Link to="/services/manufacturing" className="w-full block px-4 py-3 hover:bg-gray-800">
+                          Aerospace Vehicle Manufacturing
+                        </Link>
+                        <ChevronRight className="h-4 w-4 mr-2" />
+                      </div>
                     </li>
-                    <li className="border-t border-blue-100 py-2">
-                      <Link to="/services/flight-testing" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                    <li className="border-t border-gray-700">
+                      <Link to="/services/flight-testing" className="block px-4 py-3 hover:bg-gray-800">
                         Aerospace Vehicle Flight Testing
                       </Link>
                     </li>
-                    <li className="border-t border-blue-100 py-2">
-                      <Link to="/services/outreach" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                    <li className="border-t border-gray-700">
+                      <Link to="/services/outreach" className="block px-4 py-3 hover:bg-gray-800">
                         Outreach Program
                       </Link>
                     </li>
@@ -245,23 +201,39 @@ const Navbar = () => {
                     Aerospace Vehicle Design <ChevronRight className="h-4 w-4" />
                   </button>
                   <div className="pl-4 mt-1 space-y-1">
-                    <Link to="/services/design/aircraft" className="block text-sm text-gray-700 hover:text-aero-light">Aircrafts</Link>
-                    <Link to="/services/design/rocket" className="block text-sm text-gray-700 hover:text-aero-light">Rocket Design</Link>
-                    <Link to="/services/design/drone" className="block text-sm text-gray-700 hover:text-aero-light">Drone Design</Link>
+                    <Link to="/services/design/aircraft" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                      Aircrafts
+                    </Link>
+                    <Link to="/services/design/rocket" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                      Rocket Design
+                    </Link>
+                    <Link to="/services/design/drone" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                      Drone Design
+                    </Link>
                   </div>
                 </div>
-                <Link to="/services/analysis" className="block text-aero-dark hover:text-aero-light">Aerospace Vehicle Analysis</Link>
+                <Link to="/services/analysis" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Aerospace Vehicle Analysis
+                </Link>
                 <div className="collapsible">
                   <button className="flex items-center justify-between w-full text-aero-dark hover:text-aero-light">
                     Aerospace Vehicle Manufacturing <ChevronRight className="h-4 w-4" />
                   </button>
                   <div className="pl-4 mt-1 space-y-1">
-                    <Link to="/services/manufacturing/composite" className="block text-sm text-gray-700 hover:text-aero-light">Composite Materials</Link>
-                    <Link to="/services/manufacturing/3d" className="block text-sm text-gray-700 hover:text-aero-light">3D Printed Prototypes</Link>
+                    <Link to="/services/manufacturing/composite" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                      Composite Materials
+                    </Link>
+                    <Link to="/services/manufacturing/3d" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                      3D Printed Prototypes
+                    </Link>
                   </div>
                 </div>
-                <Link to="/services/flight-testing" className="block text-aero-dark hover:text-aero-light">Aerospace Vehicle Flight Testing</Link>
-                <Link to="/services/outreach" className="block text-aero-dark hover:text-aero-light">Outreach Program</Link>
+                <Link to="/services/flight-testing" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Aerospace Vehicle Flight Testing
+                </Link>
+                <Link to="/services/outreach" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Outreach Program
+                </Link>
               </div>
             </div>
 
@@ -270,9 +242,15 @@ const Navbar = () => {
                 Consult an Expert <ChevronDown className="h-4 w-4" />
               </button>
               <div className="pl-4 mt-2 space-y-2">
-                <Link to="/expert/my-account" className="block text-aero-dark hover:text-aero-light">My account</Link>
-                <Link to="/expert/cart" className="block text-aero-dark hover:text-aero-light">Cart</Link>
-                <Link to="/expert/checkout" className="block text-aero-dark hover:text-aero-light">Checkout</Link>
+                <Link to="/expert/my-account" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  My account
+                </Link>
+                <Link to="/expert/cart" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Cart
+                </Link>
+                <Link to="/expert/checkout" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Checkout
+                </Link>
               </div>
             </div>
             
@@ -283,7 +261,9 @@ const Navbar = () => {
                 Contact Us <ChevronDown className="h-4 w-4" />
               </button>
               <div className="pl-4 mt-2 space-y-2">
-                <Link to="/contact/privacy-policy" className="block text-aero-dark hover:text-aero-light">Privacy Policy</Link>
+                <Link to="/contact/privacy-policy" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Privacy Policy
+                </Link>
               </div>
             </div>
 
@@ -292,11 +272,21 @@ const Navbar = () => {
                 Employee Corner <ChevronDown className="h-4 w-4" />
               </button>
               <div className="pl-4 mt-2 space-y-2">
-                <Link to="/employee/mail-login" className="block text-aero-dark hover:text-aero-light">Employee Mail Login</Link>
-                <Link to="/employee/tracker" className="block text-aero-dark hover:text-aero-light">Employee Time Tracker/Attendance</Link>
-                <Link to="/employee/leave" className="block text-aero-dark hover:text-aero-light">Employee Time Off/Leave Application</Link>
-                <Link to="/employee/expense" className="block text-aero-dark hover:text-aero-light">Employee Travel Expense Request</Link>
-                <Link to="/employee/submission" className="block text-aero-dark hover:text-aero-light">Task, Report/Presentation/Video Submission</Link>
+                <Link to="/employee/mail-login" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Employee Mail Login
+                </Link>
+                <Link to="/employee/tracker" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Employee Time Tracker/Attendance
+                </Link>
+                <Link to="/employee/leave" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Employee Time Off/Leave Application
+                </Link>
+                <Link to="/employee/expense" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Employee Travel Expense Request
+                </Link>
+                <Link to="/employee/submission" className="block px-4 py-2 hover:bg-gray-50 text-aero-dark">
+                  Task, Report/Presentation/Video Submission
+                </Link>
               </div>
             </div>
             
