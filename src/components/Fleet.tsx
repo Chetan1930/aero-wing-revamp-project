@@ -5,28 +5,28 @@ import { ArrowRight } from 'lucide-react';
 
 const aircraftItems = [
   {
-    name: 'Cessna 172 Skyhawk',
-    image: 'https://images.unsplash.com/photo-1559046218-e59c71a6efc1?q=80&w=600&h=400&auto=format&fit=crop',
+    name: 'HAL Tejas',
+    image: 'https://images.unsplash.com/photo-1580047960663-5062ef4cd96e?q=80&w=600&h=400&auto=format&fit=crop',
+    category: 'Military',
+    description: 'Indigenous light combat aircraft developed by HAL'
+  },
+  {
+    name: 'NAL Saras',
+    image: 'https://images.unsplash.com/photo-1559060472-8b33242f17a1?q=80&w=600&h=400&auto=format&fit=crop',
+    category: 'Passenger',
+    description: 'Multi-purpose light transport aircraft'
+  },
+  {
+    name: 'HAL Dhruv',
+    image: 'https://images.unsplash.com/photo-1583416750470-965b2707b355?q=80&w=600&h=400&auto=format&fit=crop',
+    category: 'Utility',
+    description: 'Advanced light helicopter for military and civilian use'
+  },
+  {
+    name: 'NAL HANSA',
+    image: 'https://images.unsplash.com/photo-1599574277517-1b12829a933f?q=80&w=600&h=400&auto=format&fit=crop',
     category: 'Training',
-    description: 'Perfect for flight training and short-distance travel'
-  },
-  {
-    name: 'Piper PA-28 Cherokee',
-    image: 'https://images.unsplash.com/photo-1541807120430-f3f78c281225?q=80&w=600&h=400&auto=format&fit=crop',
-    category: 'Training & Charter',
-    description: 'Versatile aircraft suitable for training and private charters'
-  },
-  {
-    name: 'Beechcraft King Air 250',
-    image: 'https://images.unsplash.com/photo-1601501177880-ffacae87f638?q=80&w=600&h=400&auto=format&fit=crop',
-    category: 'Corporate & Charter',
-    description: 'Premium twin-turboprop for executive travel and charters'
-  },
-  {
-    name: 'Diamond DA40',
-    image: 'https://images.unsplash.com/photo-1588860939994-ce4f7a537f03?q=80&w=600&h=400&auto=format&fit=crop',
-    category: 'Training',
-    description: 'Modern glass cockpit trainer with advanced safety features'
+    description: 'Indigenous trainer aircraft for pilot training'
   }
 ];
 

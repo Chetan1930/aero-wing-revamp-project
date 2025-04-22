@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
@@ -12,10 +11,12 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
+type ActiveSubmenu = 'services' | 'expert' | 'contact' | 'employee' | 'design' | 'manufacturing' | null;
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
+  const [activeSubmenu, setActiveSubmenu] = useState<ActiveSubmenu>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const toggleSubmenu = (menu: string) => {
+  const toggleSubmenu = (menu: ActiveSubmenu) => {
     setActiveSubmenu(activeSubmenu === menu ? null : menu);
   };
 
@@ -42,10 +43,9 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-aero-blue">AeroWing</span>
+          <span className="text-2xl font-bold text-aero-blue">Aakash Aviation</span>
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden lg:block">
           <NavigationMenu>
             <NavigationMenuList>
@@ -229,7 +229,6 @@ const Navbar = () => {
 
         <Button className="hidden lg:block bg-aero-blue hover:bg-aero-light text-white">Get in Touch</Button>
 
-        {/* Mobile Menu Button */}
         <button 
           className="lg:hidden text-aero-blue"
           onClick={toggleMenu}
@@ -238,7 +237,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="lg:hidden bg-white shadow-md">
           <div className="px-4 py-3 space-y-3">
