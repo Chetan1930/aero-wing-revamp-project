@@ -6,25 +6,25 @@ import { ArrowRight } from 'lucide-react';
 const aircraftItems = [
   {
     name: 'Cessna 172 Skyhawk',
-    image: '/placeholder.svg',
+    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Cessna+172+Skyhawk',
     category: 'Training',
     description: 'Perfect for flight training and short-distance travel'
   },
   {
     name: 'Piper PA-28 Cherokee',
-    image: '/placeholder.svg',
+    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Piper+PA-28+Cherokee',
     category: 'Training & Charter',
     description: 'Versatile aircraft suitable for training and private charters'
   },
   {
     name: 'Beechcraft King Air 250',
-    image: '/placeholder.svg',
+    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Beechcraft+King+Air',
     category: 'Corporate & Charter',
     description: 'Premium twin-turboprop for executive travel and charters'
   },
   {
     name: 'Diamond DA40',
-    image: '/placeholder.svg',
+    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Diamond+DA40',
     category: 'Training',
     description: 'Modern glass cockpit trainer with advanced safety features'
   }
