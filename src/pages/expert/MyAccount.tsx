@@ -28,15 +28,15 @@ const MyAccount = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="John" />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="Chetan" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="Doe" />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="Chauhan" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                      <input type="email" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="john.doe@example.com" />
+                      <input type="email" className="w-full p-2 border border-gray-300 rounded-md" defaultValue="Chetan.Chauhan@example.com" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
@@ -84,7 +84,7 @@ const MyAccount = () => {
                         <tr>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2023-04-15</td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Drone Design Consultation</td>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Dr. Sarah Johnson</td>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Dr. Sarah Chetanson</td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Completed</span>
                           </td>

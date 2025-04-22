@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-aero-blue">Aakash Aviation</span>
+          <span className="text-2xl font-bold text-aero-blue">AeroWing</span>
         </Link>
 
         <div className="hidden lg:block">

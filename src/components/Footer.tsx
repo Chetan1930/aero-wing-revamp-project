@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-6">Aakash Aviation</h3>
+            <h3 className="text-2xl font-bold mb-6">AeroWing</h3>
             <p className="text-gray-400 mb-6">
               Delivering excellence in aviation services with a commitment to safety, quality, and customer satisfaction across India.
             </p>
@@ -90,7 +90,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-aero-blue mr-3 flex-shrink-0" />
-                <a href="mailto:info@aakashaviation.in" className="text-gray-400 hover:text-white">info@aakashaviation.in</a>
+                <a href="mailto:info@AeroWing.in" className="text-gray-400 hover:text-white">info@AeroWing.in</a>
               </li>
             </ul>
           </div>
@@ -99,7 +99,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Aakash Aviation. All rights reserved.
+              &copy; {new Date().getFullYear()} AeroWing. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-gray-500 hover:text-white text-sm">Privacy Policy</Link>

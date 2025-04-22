@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote: "We've been using AeroWing for our corporate travel needs for over 3 years. Their professionalism and attention to detail are unmatched in the industry.",
-    name: "Sarah Johnson",
+    name: "Sarah Chetanson",
     title: "CEO, TechGrowth Inc.",
     stars: 5
   },
