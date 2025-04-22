@@ -10,7 +10,7 @@ const AerospaceManufacturing = () => {
     >
       <div className="text-center py-12">
         <img 
-          src="/lovable-uploads/5d756b03-b3fc-4f09-8867-2e468b646dca.png" 
+          src="https://images.unsplash.com/photo-1616628188812-9e78702976e4?q=80&w=1920&auto=format&fit=crop" 
           alt="Aerospace manufacturing" 
           className="w-full max-w-4xl mx-auto h-auto rounded-lg shadow-lg mb-8"
         />

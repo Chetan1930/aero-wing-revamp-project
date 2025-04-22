@@ -5,32 +5,32 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const serviceItems = [
   {
-    icon: <Ruler className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><Ruler className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Aerospace Vehicle Design',
     description: 'Comprehensive design services for aircraft, rockets, drones, and other aerospace vehicles.'
   },
   {
-    icon: <FileText className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><FileText className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Aerospace Vehicle Analysis',
     description: 'Advanced computational analysis including CFD, FEA, and aerodynamic performance evaluation.'
   },
   {
-    icon: <Cog className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><Cog className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Aerospace Vehicle Manufacturing',
     description: 'State-of-the-art manufacturing including composite fabrication and 3D printed components.'
   },
   {
-    icon: <Plane className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><Plane className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Aerospace Vehicle Flight Testing',
     description: 'Comprehensive testing services including wind tunnel testing, flight testing, and certification.'
   },
   {
-    icon: <FlaskConical className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><FlaskConical className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Testing & Validation',
     description: 'Rigorous validation protocols to ensure aerospace vehicles meet all performance and safety requirements.'
   },
   {
-    icon: <GraduationCap className="h-10 w-10 text-white bg-aero-blue rounded-full p-2" aria-hidden="true" />,
+    icon: <div className="bg-aero-blue rounded-full p-2"><GraduationCap className="h-10 w-10 text-white" aria-hidden="true" /></div>,
     title: 'Outreach Program',
     description: 'Educational initiatives designed to inspire and educate students about aerospace engineering and innovation.'
   }

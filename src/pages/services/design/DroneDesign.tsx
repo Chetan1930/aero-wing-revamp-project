@@ -10,11 +10,11 @@ const DroneDesign = () => {
     >
       <div className="text-center py-12">
         <img 
-          src="/public/lovable-uploads/bd99f703-0282-438e-a765-84e3a8879f1b.png" 
+          src="https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?q=80&w=1920&auto=format&fit=crop" 
           alt="Drone design" 
           className="w-full max-w-4xl mx-auto h-auto rounded-lg shadow-lg mb-8"
         />
-        <p className="text-xl text-gray-600">Drone design content coming soon.</p>
+        <p className="text-xl text-gray-600">Our drone design services leverage cutting-edge technology to create efficient, reliable, and innovative unmanned aerial vehicles for various applications.</p>
       </div>
     </PageLayout>
   );

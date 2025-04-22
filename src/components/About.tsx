@@ -21,7 +21,7 @@ const About = () => {
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?q=80&w=800&auto=format&fit=crop" 
                   alt="About AeroWing" 
                   className="w-full h-auto object-cover"
                 />

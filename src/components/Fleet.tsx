@@ -6,25 +6,25 @@ import { ArrowRight } from 'lucide-react';
 const aircraftItems = [
   {
     name: 'Cessna 172 Skyhawk',
-    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Cessna+172+Skyhawk',
+    image: 'https://images.unsplash.com/photo-1559046218-e59c71a6efc1?q=80&w=600&h=400&auto=format&fit=crop',
     category: 'Training',
     description: 'Perfect for flight training and short-distance travel'
   },
   {
     name: 'Piper PA-28 Cherokee',
-    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Piper+PA-28+Cherokee',
+    image: 'https://images.unsplash.com/photo-1541807120430-f3f78c281225?q=80&w=600&h=400&auto=format&fit=crop',
     category: 'Training & Charter',
     description: 'Versatile aircraft suitable for training and private charters'
   },
   {
     name: 'Beechcraft King Air 250',
-    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Beechcraft+King+Air',
+    image: 'https://images.unsplash.com/photo-1601501177880-ffacae87f638?q=80&w=600&h=400&auto=format&fit=crop',
     category: 'Corporate & Charter',
     description: 'Premium twin-turboprop for executive travel and charters'
   },
   {
     name: 'Diamond DA40',
-    image: 'https://placehold.co/600x400/0A3D91/FFFFFF?text=Diamond+DA40',
+    image: 'https://images.unsplash.com/photo-1588860939994-ce4f7a537f03?q=80&w=600&h=400&auto=format&fit=crop',
     category: 'Training',
     description: 'Modern glass cockpit trainer with advanced safety features'
   }

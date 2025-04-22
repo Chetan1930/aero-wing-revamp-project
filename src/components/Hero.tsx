@@ -5,7 +5,14 @@ import { ChevronRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="hero-section min-h-screen flex items-center text-white">
+    <section 
+      className="hero-section min-h-screen flex items-center text-white" 
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1493246318656-5bfd4cfb29b8?q=80&w=1920&auto=format&fit=crop')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
       <div className="container mx-auto px-4 py-20 md:py-28">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">

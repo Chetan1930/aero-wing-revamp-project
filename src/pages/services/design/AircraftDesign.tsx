@@ -12,7 +12,7 @@ const AircraftDesign = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
         <div className="md:col-span-2">
           <img 
-            src="/lovable-uploads/0caa7cc0-01ef-4fd2-9b1f-6365e1abc268.png" 
+            src="https://images.unsplash.com/photo-1565606298909-5aa3618853ba?q=80&w=1920&auto=format&fit=crop" 
             alt="Aircraft design" 
             className="w-full h-auto rounded-lg shadow-lg mb-8"
           />
@@ -72,7 +72,7 @@ const AircraftDesign = () => {
         <div className="flex flex-col md:flex-row gap-8 mt-10">
           <div className="flex-1">
             <img 
-              src="/lovable-uploads/3f4f9469-d5db-482c-9bd4-bbe504a0f72a.png" 
+              src="https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=800&auto=format&fit=crop" 
               alt="Aircraft analysis" 
               className="w-full h-auto rounded-lg shadow-lg"
             />
