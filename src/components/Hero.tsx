@@ -8,7 +8,7 @@ const Hero = () => {
     <section 
       className="hero-section min-h-screen flex items-center text-white" 
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1493246318656-5bfd4cfb29b8?q=80&w=1920&auto=format&fit=crop')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1630696334746-65c4268c75a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fEFkdmFuY2VkJTIwQWVyb3NwYWNlJTIwRW5naW5lZXJpbmclMjBTb2x1dGlvbnN8ZW58MHx8MHx8fDA%3D')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
